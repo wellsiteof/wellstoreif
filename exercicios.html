@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Funções - JS</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+        .bloco { margin-bottom: 25px; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+        input { margin: 5px; padding: 5px; width: 80px; }
+        button { padding: 5px 10px; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 3px; }
+        button:hover { background-color: #0056b3; }
+        .resultado { margin-top: 10px; font-weight: bold; color: #28a745; }
+    </style>
+</head>
+<body>
+
+    <h1>Lista de Exercícios - Funções em JavaScript</h1>
+    <p>Professor, esta é a página exclusiva para a avaliação dos exercícios.</p>
+
+    <!-- Exercicio 1 -->
+    <div class="bloco">
+        <h3>1) Maior e Menor Valor</h3>
+        <input type="number" id="ex1_a" placeholder="A">
+        <input type="number" id="ex1_b" placeholder="B">
+        <input type="number" id="ex1_c" placeholder="C">
+        <input type="number" id="ex1_d" placeholder="D">
+        <input type="number" id="ex1_e" placeholder="E">
+        <button onclick="dispararMaiorMenor()">Verificar</button>
+        <div class="resultado" id="res_ex1"></div>
+    </div>
+
+    <!-- Exercicio 2 -->
+    <div class="bloco">
+        <h3>2) Verificar Vogal</h3>
+        <input type="text" id="ex2_c" maxlength="1" placeholder="Letra" style="width: 50px;">
+        <button onclick="dispararVogal()">Verificar</button>
+        <div class="resultado" id="res_ex2"></div>
+    </div>
+
+    <!-- Exercicio 3 -->
+    <div class="bloco">
+        <h3>3) Limites (Pares e Somatório)</h3>
+        <input type="number" id="ex3_li" placeholder="Lim. Inf">
+        <input type="number" id="ex3_ls" placeholder="Lim. Sup">
+        <button onclick="dispararLimites()">Calcular</button>
+        <div class="resultado" id="res_ex3"></div>
+    </div>
+
+    <!-- Exercicio 4 -->
+    <div class="bloco">
+        <h3>4) Ordenar 3 Valores</h3>
+        <input type="number" id="ex4_a" placeholder="A">
+        <input type="number" id="ex4_b" placeholder="B">
+        <input type="number" id="ex4_c" placeholder="C">
+        <button onclick="dispararOrdem()">Ordenar</button>
+        <div class="resultado" id="res_ex4"></div>
+    </div>
+
+    <!-- Exercicio 5 -->
+    <div class="bloco">
+        <h3>5) Positivo ou Negativo</h3>
+        <input type="number" id="ex5_x" placeholder="X">
+        <button onclick="dispararPositivoNegativo()">Verificar</button>
+        <div class="resultado" id="res_ex5"></div>
+    </div>
+
+    <!-- Exercicio 6 -->
+    <div class="bloco">
+        <h3>6) Par ou Ímpar</h3>
+        <input type="number" id="ex6_x" placeholder="X">
+        <button onclick="dispararParImpar()">Verificar</button>
+        <div class="resultado" id="res_ex6"></div>
+    </div>
+
+    <!-- Vinculando o arquivo de JavaScript -->
+    <script src="funcoes.js"></script>
+</body>
+</html>
